@@ -130,7 +130,8 @@
 
   > 尝试resnet-like model & vgg-like model（自己搭建）
 
-  - **注意：**激活函数和损失函数一定要匹配！
+  - **注意:** 激活函数和损失函数一定要匹配！
+    > 问题：训练时loss不发生变化，accuracy一直为0.5
 
     二分类：激活函数sigmoid，损失函数binary_crossentropy
 
